@@ -1,0 +1,103 @@
+ .navbar{
+     background: #000;
+ }
+ .nav-item{
+      padding-left: 1em !important;
+  }
+  .nav-link{
+      text-transform: uppercase;
+  }
+  .carousel-item{
+      height: 450px;
+  }
+  .carousel-img-1{
+      background-image: url(../img/image1.jpeg);
+      background-size: cover;
+  }
+  .carousel-img-2{
+    background-image: url(../img/image2.jpeg);
+    background-size: cover;
+}
+.carousel-img-3{
+    background-image: url(../img/image3.jpeg);
+    background-size: cover;
+}
+
+#home-icon .fa{
+    font-size: 50px;
+}
+#getstarted{
+     
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../img/bg1.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 250px;
+}
+ 
+#home-video{
+     
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../img/people.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 250px;
+}
+#home-video{
+    font-size: 50px;
+}
+ 
+#gallery img{
+    min-height: 300px;
+}
+#copyright{
+    background: #000;
+}
+
+
+#about-header{
+    background-image: url(../img/image1.jpeg);
+    background-size: cover;
+    height: 200px;
+    background-attachment: fixed;
+}
+
+#about-info img{
+    width: 350px;
+    height: 350px;
+}
+#icon-boxs .fa{
+    font-size:50px;
+    margin-bottom: 15px;
+}
+
+
+#testimonial .slick-prev::before{
+    color: #000;
+}
+#testimonial .slick-next::before{
+    color: #000;
+}
+
+#service-header{
+    background-image: url(../img/image2.jpeg);
+    background-size: cover;
+    height: 200px;
+    background-attachment: fixed;
+}
+
+@media(max-width:767px){
+    #getstarted{
+    min-height: 350px;}
+}
+
+
+@media(max-width:480px)
+{
+    .carousel h2{
+        font-size: 2rem;
+    }
+    #getstarted{
+        min-height: 350px;}
+}
+
